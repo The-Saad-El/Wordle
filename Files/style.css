@@ -15,6 +15,7 @@ h1{
 
 }
 p::selection{
+    font-size: x-large;
     color: green;
     background-color: hsla(0, 0%, 0%, 0.75);
 }
