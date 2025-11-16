@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    color: black;
+    padding: 35px;
+    border: 3px peachpuff;
+    border-style:double;
+    text-shadow: 1px 3px orangered, -1px -3px goldenrod;
+    border-radius: 15px;
+    border-width: 5px;
+    background-color: black;
+    font-size: 35px;
+
+}
+h1:hover{
+    background-color: black;
+    border-radius: 25px;
+    border-width: 1px;
+    border-color: green;
+    margin: 30px; 
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+}
+
+footer{
+    height: 200px;
+    padding: 25px;
+    margin: 50px;
+    text-align: center;
+    border: 1px solid black;
+    color:chartreuse;
+}
+footer h4{
+    vertical-align: middle;
+    font-size: 25px;
+}
