@@ -1,10 +1,17 @@
 body{
     background-image: url(Assets/smileWallpaper.png);
 }
+a{
+    text-decoration: none;
+}
+
 #title{
-    font-size: 35px;
-    font-weight: bold;
     font-family: fantasy;
+    font-weight: bold;
+    height: 125px;
+}
+#mainTitle{
+    font-size: 37px;
     color: orange;
     text-shadow: 5px 5px 3px black;
     padding: 5px;
@@ -12,21 +19,29 @@ body{
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
-#title:hover{
+#mainTitle:hover{
     animation-name: rotate;
     animation-duration: 3s;
 }
-#subtitle{
+#subTitle{
     margin-left: 13px;
-    font-family: fantasy;
-    font-weight: bold;
     font-size: 13px;
     text-shadow: 1px 1px 3px orange;
+    margin-bottom: 0px;
 }
-#subtitle:hover{
+#subTitle:hover{
     color: orange;
     text-shadow: 3px 3px 5px black;
 }
+
+#navBar{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+    border: 5px 20px solid black;
+}
+
 @keyframes rotate{
     100%{transform: rotateZ(360deg)}
 }
